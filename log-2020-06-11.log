@@ -1,0 +1,1088 @@
+[2m2020-06-11 22:36:52.052[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2m2020-06-11 22:36:52.057[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.e.DevToolsPropertyDefaultsPostProcessor[0;39m [2m:[0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2m2020-06-11 22:36:54.214[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:36:54.609[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2551 ms
+[2m2020-06-11 22:36:55.786[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:36:55.840[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:36:55.886[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:36:56.285[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:37:19.011[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 22:37:19.038[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 27 ms
+[2m2020-06-11 22:37:23.034[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mo.s.web.servlet.PageNotFound            [0;39m [2m:[0;39m No mapping for GET /favicon.ico
+[2m2020-06-11 22:37:33.041[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2020-06-11 22:37:34.324[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m detailQnA - 호출
+[2m2020-06-11 22:37:35.174[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2020-06-11 22:38:02.225[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m retrieveQnA - 호출
+[2m2020-06-11 22:41:19.316[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[       Thread-6][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:41:23.940[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:41:24.217[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3755 ms
+[2m2020-06-11 22:41:24.907[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:41:24.921[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:41:24.937[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:41:25.112[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:41:25.116[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:41:59.850[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-10][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:42:01.082[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:42:01.177[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 910 ms
+[2m2020-06-11 22:42:01.498[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:42:01.509[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:42:01.519[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:42:01.662[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:42:01.666[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:43:37.642[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-16][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:43:38.747[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:43:38.839[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 792 ms
+[2m2020-06-11 22:43:39.172[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:43:39.181[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:43:39.192[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:43:39.329[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:43:39.332[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:44:12.958[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-22][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:44:14.065[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:44:14.156[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 793 ms
+[2m2020-06-11 22:44:14.488[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:44:14.499[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:44:14.509[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:44:14.655[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2020-06-11 22:44:14.676[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.ssafy.happyhouse.HappyHouseApplication.main(HappyHouseApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:231)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:265)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:196)
+	... 15 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1066)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	... 17 common frames omitted
+Caused by: java.net.SocketException: Bad address: listen
+	at sun.nio.ch.Net.listen(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1227)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:592)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1063)
+	... 19 common frames omitted
+
+[2m2020-06-11 22:44:14.680[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:44:20.381[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:44:20.465[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 854 ms
+[2m2020-06-11 22:44:20.757[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:44:20.767[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:44:20.776[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:44:20.902[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:44:20.904[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:44:25.757[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-28][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:44:26.929[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:44:27.019[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 826 ms
+[2m2020-06-11 22:44:27.327[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:44:27.336[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:44:27.346[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:44:27.478[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2020-06-11 22:44:27.479[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat server
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:297)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.ssafy.happyhouse.HappyHouseApplication.main(HappyHouseApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalArgumentException: standardService.connector.startFailed
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:231)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:265)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:196)
+	... 15 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1066)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	... 17 common frames omitted
+Caused by: java.net.SocketException: Bad address: listen
+	at sun.nio.ch.Net.listen(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:228)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:211)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1141)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1227)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:592)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1063)
+	... 19 common frames omitted
+
+[2m2020-06-11 22:44:27.481[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:45:14.623[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:45:14.750[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1167 ms
+[2m2020-06-11 22:45:15.090[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:45:15.099[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:45:15.109[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:45:15.266[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:45:15.271[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:45:38.055[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-39][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:45:39.441[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:45:39.522[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 794 ms
+[2m2020-06-11 22:45:39.910[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:45:39.920[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:45:39.930[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:45:40.052[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:45:40.055[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:46:02.847[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-50][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:03.858[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:46:03.937[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 770 ms
+[2m2020-06-11 22:46:04.309[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:04.319[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:46:04.329[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:46:04.475[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:46:04.479[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:46:11.374[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-56][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:12.542[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:46:12.624[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 853 ms
+[2m2020-06-11 22:46:12.946[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:12.955[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:46:12.965[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:46:13.096[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:46:13.098[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:46:18.132[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 22:46:18.152[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 12 ms
+[2m2020-06-11 22:46:25.335[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 22:46:38.220[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-62][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:39.419[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:46:39.509[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 822 ms
+[2m2020-06-11 22:46:39.856[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:39.874[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:46:39.888[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:46:40.100[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:46:40.106[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:46:44.772[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-68][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:45.802[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:46:45.889[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 780 ms
+[2m2020-06-11 22:46:46.170[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:46:46.180[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:46:46.189[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:46:46.333[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:46:46.337[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:47:41.711[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-74][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:47:42.866[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:47:42.994[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1005 ms
+[2m2020-06-11 22:47:43.280[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:47:43.289[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:47:43.299[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:47:43.456[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:47:43.458[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:47:56.694[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-80][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:47:57.668[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:47:57.753[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 726 ms
+[2m2020-06-11 22:47:58.032[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:47:58.042[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:47:58.053[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:47:58.239[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:47:58.246[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:48:33.567[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-86][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:48:34.634[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:48:34.811[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 891 ms
+[2m2020-06-11 22:48:35.239[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:48:35.251[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:48:35.262[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:48:35.429[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:48:35.431[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:48:40.111[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-92][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:48:41.379[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:48:41.457[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 794 ms
+[2m2020-06-11 22:48:41.729[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:48:41.738[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:48:41.749[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:48:41.881[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:48:41.885[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:48:45.719[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 22:48:45.734[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 13 ms
+[2m2020-06-11 22:48:48.864[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m house search - 호출
+[2m2020-06-11 22:48:48.916[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m house searchCount - 호출
+[2m2020-06-11 22:49:25.862[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[      Thread-98][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:49:27.388[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:49:27.509[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1131 ms
+[2m2020-06-11 22:49:27.945[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:49:27.965[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:49:27.996[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:49:28.286[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:49:28.289[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:49:33.966[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-104][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:49:35.271[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:49:35.361[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1039 ms
+[2m2020-06-11 22:49:35.648[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:49:35.657[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:49:35.667[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:49:35.797[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:49:35.800[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:49:47.889[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-110][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:49:48.799[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:49:48.891[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 753 ms
+[2m2020-06-11 22:49:49.165[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:49:49.175[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:49:49.186[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:49:49.337[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:49:49.340[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:50:09.436[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-116][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:50:10.342[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:50:10.421[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 714 ms
+[2m2020-06-11 22:50:10.689[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:50:10.701[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:50:10.710[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:50:10.829[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:50:10.833[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:51:27.451[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-122][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:51:28.617[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:51:28.698[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 887 ms
+[2m2020-06-11 22:51:29.069[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:51:29.079[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:51:29.089[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:51:29.281[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:51:29.286[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:51:50.094[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-128][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:51:51.141[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:51:51.220[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 734 ms
+[2m2020-06-11 22:51:51.485[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:51:51.494[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:51:51.508[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:51:51.647[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:51:51.649[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:52:04.840[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-134][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:52:05.781[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:52:05.856[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 691 ms
+[2m2020-06-11 22:52:06.128[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:52:06.138[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:52:06.147[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:52:06.313[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:52:06.316[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:52:43.097[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-140][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:52:44.072[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:52:44.155[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 723 ms
+[2m2020-06-11 22:52:44.414[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:52:44.423[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:52:44.433[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:52:44.575[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:52:44.578[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:52:49.372[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-146][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:52:50.286[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:52:50.360[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 680 ms
+[2m2020-06-11 22:52:50.639[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:52:50.649[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:52:50.659[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:52:50.791[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:52:50.793[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:52:59.876[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-152][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:00.871[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:53:00.948[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 705 ms
+[2m2020-06-11 22:53:01.255[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:01.264[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:53:01.277[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:53:01.398[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:53:01.402[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:53:07.075[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-158][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:08.270[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:53:08.357[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 779 ms
+[2m2020-06-11 22:53:08.647[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:08.659[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:53:08.671[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:53:08.824[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:53:08.828[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:53:23.180[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-164][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:24.394[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:53:24.512[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 805 ms
+[2m2020-06-11 22:53:24.771[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:24.781[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:53:24.791[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:53:24.918[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:53:24.922[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:53:39.435[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-170][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:40.638[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:53:40.715[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 747 ms
+[2m2020-06-11 22:53:40.978[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:40.987[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:53:40.997[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:53:41.166[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:53:41.171[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:53:54.439[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-176][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:55.402[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:53:55.481[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 740 ms
+[2m2020-06-11 22:53:55.741[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:53:55.750[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:53:55.765[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:53:55.912[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:53:55.914[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:54:18.868[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-182][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:54:19.784[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:54:19.861[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 694 ms
+[2m2020-06-11 22:54:20.141[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:54:20.150[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:54:20.159[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:54:20.290[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:54:20.294[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:54:31.359[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-188][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:54:32.408[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:54:32.491[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 736 ms
+[2m2020-06-11 22:54:32.748[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:54:32.757[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:54:32.767[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:54:32.889[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:54:32.892[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:54:43.139[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-194][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:54:44.100[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:54:44.175[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 730 ms
+[2m2020-06-11 22:54:44.434[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:54:44.446[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:54:44.457[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:54:44.596[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:54:44.599[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:01.051[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-200][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:01.992[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:02.067[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 721 ms
+[2m2020-06-11 22:55:02.356[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:02.365[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:02.373[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:02.486[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:02.489[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:05.137[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-206][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:06.063[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:06.141[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 727 ms
+[2m2020-06-11 22:55:06.427[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:06.435[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:06.446[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:06.569[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:06.572[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:17.711[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-212][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:18.694[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:18.775[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 790 ms
+[2m2020-06-11 22:55:19.050[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:19.062[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:19.076[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:19.196[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:19.199[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:26.086[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-218][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:27.002[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:27.079[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 720 ms
+[2m2020-06-11 22:55:27.335[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:27.345[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:27.354[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:27.472[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:27.474[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:36.501[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-224][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:37.434[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:37.533[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 738 ms
+[2m2020-06-11 22:55:37.789[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:37.797[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:37.807[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:37.945[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:37.965[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:42.665[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-230][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:43.606[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:43.683[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 720 ms
+[2m2020-06-11 22:55:43.955[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:43.967[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:43.981[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:44.115[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:44.118[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:51.044[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-236][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:52.036[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:52.112[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 743 ms
+[2m2020-06-11 22:55:52.392[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:52.403[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:52.413[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:52.548[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:52.550[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:55:56.195[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-242][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:57.363[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 22:55:57.444[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 792 ms
+[2m2020-06-11 22:55:57.777[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 22:55:57.850[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 22:55:57.896[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 22:55:58.242[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 22:55:58.244[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 22:56:02.053[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 22:56:02.067[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 7 ms
+[2m2020-06-11 22:56:02.074[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 22:56:06.765[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 22:56:06.882[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 22:56:10.760[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToInterestAreaRegisterPage - 호출
+[2m2020-06-11 22:56:11.930[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToStoreListPage - 호출
+[2m2020-06-11 22:56:54.277[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 22:56:56.438[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 22:57:25.788[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 22:57:36.263[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 22:57:36.283[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:05:37.770[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-248][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:05:42.727[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:05:43.045[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 2802 ms
+[2m2020-06-11 23:05:44.370[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:05:44.387[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:05:44.405[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:05:44.676[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:05:44.691[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:05:53.764[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-254][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:05:54.898[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:05:54.993[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 851 ms
+[2m2020-06-11 23:05:55.309[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:05:55.319[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:05:55.330[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:05:55.491[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:05:55.497[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:06:04.606[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:06:04.620[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 12 ms
+[2m2020-06-11 23:06:04.625[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:06:09.801[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[2m2020-06-11 23:08:15.714[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:08:20.276[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+[2m2020-06-11 23:08:48.760[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:08:51.657[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+[2m2020-06-11 23:12:48.487[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-260][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:12:49.857[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:12:49.953[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 959 ms
+[2m2020-06-11 23:12:50.253[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:12:50.263[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:12:50.274[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:12:50.399[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:12:50.402[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:12:57.177[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:12:57.191[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 7 ms
+[2m2020-06-11 23:12:57.192[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:13:00.667[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+[2m2020-06-11 23:14:00.901[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:14:04.642[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+[2m2020-06-11 23:15:12.499[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:15:16.022[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[2m2020-06-11 23:18:10.308[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:18:13.475[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[2m2020-06-11 23:23:35.055[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:23:46.947[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:24:16.355[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:25:23.038[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:25:34.841[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:25:52.587[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToUserJoinPage - 호출
+[2m2020-06-11 23:25:53.178[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:26:12.892[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:26:16.276[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:27:02.066[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-266][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:27:05.324[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:27:05.436[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1159 ms
+[2m2020-06-11 23:27:05.947[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:27:05.968[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:27:05.988[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:27:06.217[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:27:06.224[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:27:10.511[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:27:10.528[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 6 ms
+[2m2020-06-11 23:27:10.531[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:27:15.105[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:27:32.537[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-272][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:27:33.862[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:27:33.949[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 765 ms
+[2m2020-06-11 23:27:34.245[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:27:34.255[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:27:34.265[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:27:34.388[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:27:34.394[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:27:37.300[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:27:37.313[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 11 ms
+[2m2020-06-11 23:27:37.319[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:27:40.438[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:27:53.152[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-278][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:27:54.510[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:27:54.587[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1019 ms
+[2m2020-06-11 23:27:54.864[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:27:54.873[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:27:54.884[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:27:55.020[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:27:55.022[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:28:17.245[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-284][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:18.232[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:28:18.326[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 769 ms
+[2m2020-06-11 23:28:18.617[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:18.627[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:28:18.637[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:28:18.772[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:28:18.775[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:28:23.457[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-290][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:24.418[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:28:24.532[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 782 ms
+[2m2020-06-11 23:28:24.823[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:24.836[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:28:24.849[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:28:24.978[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:28:24.981[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:28:27.581[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:28:27.591[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 9 ms
+[2m2020-06-11 23:28:27.593[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:28:33.666[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:28:40.451[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-296][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:41.501[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:28:41.651[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 883 ms
+[2m2020-06-11 23:28:41.984[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:41.994[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:28:42.004[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:28:42.142[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:28:42.146[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:28:56.559[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-302][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:57.542[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:28:57.632[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 779 ms
+[2m2020-06-11 23:28:57.992[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:28:58.002[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:28:58.012[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:28:58.145[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:28:58.147[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:29:14.041[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:29:14.060[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 9 ms
+[2m2020-06-11 23:29:14.065[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:29:18.244[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:29:18.312[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:29:51.748[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:29:55.713[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 23:29:55.735[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:30:31.274[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:30:33.048[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToUserJoinPage - 호출
+[2m2020-06-11 23:30:36.725[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+[2m2020-06-11 23:31:10.003[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:31:13.749[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false'); nested exception is com.fasterxml.jackson.core.JsonParseException: Unrecognized token 'uid': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (PushbackInputStream); line: 1, column: 5]]
+[2m2020-06-11 23:31:28.298[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:31:31.933[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:31:31.958[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:32:14.721[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-308][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:32:16.025[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:32:16.110[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 848 ms
+[2m2020-06-11 23:32:16.505[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:32:16.515[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:32:16.525[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:32:16.663[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:32:16.666[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:32:16.770[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:32:16.777[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 5 ms
+[2m2020-06-11 23:32:16.779[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:32:20.512[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:32:20.589[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:33:14.034[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-314][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:33:14.969[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:33:15.047[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 725 ms
+[2m2020-06-11 23:33:15.328[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:33:15.340[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:33:15.351[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:33:15.481[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:33:15.484[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:34:51.285[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:34:51.370[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 75 ms
+[2m2020-06-11 23:34:51.410[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:34:55.880[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:34:55.975[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:34:57.722[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 23:34:57.741[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:35:02.722[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user findPw - 호출
+[2m2020-06-11 23:35:26.008[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-320][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:35:31.616[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:35:32.173[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 3461 ms
+[2m2020-06-11 23:35:33.351[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:35:33.376[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:35:33.399[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:35:33.700[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:35:33.707[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:36:21.352[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:36:21.371[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 12 ms
+[2m2020-06-11 23:36:21.377[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:36:25.241[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:36:25.294[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:36:29.051[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:36:34.308[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported]
+[2m2020-06-11 23:37:34.429[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:37:38.012[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user update - 호출
+[2m2020-06-11 23:37:39.608[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:37:40.858[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:38:05.629[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-326][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:38:06.612[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:38:06.698[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 742 ms
+[2m2020-06-11 23:38:07.002[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:38:07.022[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:38:07.037[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:38:07.218[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:38:07.221[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:38:19.474[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-332][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:38:20.506[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:38:20.583[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 736 ms
+[2m2020-06-11 23:38:20.876[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:38:20.889[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:38:20.905[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:38:21.036[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:38:21.038[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:39:08.520[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:39:08.530[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 9 ms
+[2m2020-06-11 23:39:08.540[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:39:17.861[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:39:25.595[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:39:25.630[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:39:27.948[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:39:29.651[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user delete - 호출
+[2m2020-06-11 23:39:32.320[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user delete - 호출
+[2m2020-06-11 23:39:32.352[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 23:39:32.368[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:39:49.354[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-338][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:39:50.513[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:39:50.592[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 821 ms
+[2m2020-06-11 23:39:50.931[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:39:50.957[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:39:50.973[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:39:51.119[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:39:51.121[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:40:36.790[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:40:36.804[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 11 ms
+[2m2020-06-11 23:40:36.806[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:40:38.678[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToUserJoinPage - 호출
+[2m2020-06-11 23:40:48.690[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user join - 호출
+[2m2020-06-11 23:40:48.744[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 23:40:48.783[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:40:52.397[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:40:52.448[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:40:54.057[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:40:54.309[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mo.a.c.c.C.[.[localhost].[/].[jsp]       [0;39m [2m:[0;39m Servlet.service() for servlet [jsp] threw exception
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 13
+	at java.lang.String.substring(Unknown Source)
+	at org.apache.jsp.WEB_002dINF.views.user.mypage_jsp._jspService(mypage_jsp.java:280)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+[2m2020-06-11 23:40:54.311[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [java.lang.StringIndexOutOfBoundsException: String index out of range: 13] with root cause
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 13
+	at java.lang.String.substring(Unknown Source)
+	at org.apache.jsp.WEB_002dINF.views.user.mypage_jsp._jspService(mypage_jsp.java:280)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+[2m2020-06-11 23:40:58.721[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:40:58.745[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mo.a.c.c.C.[.[localhost].[/].[jsp]       [0;39m [2m:[0;39m Servlet.service() for servlet [jsp] threw exception
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 13
+	at java.lang.String.substring(Unknown Source)
+	at org.apache.jsp.WEB_002dINF.views.user.mypage_jsp._jspService(mypage_jsp.java:280)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+[2m2020-06-11 23:40:58.746[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [java.lang.StringIndexOutOfBoundsException: String index out of range: 13] with root cause
+
+java.lang.StringIndexOutOfBoundsException: String index out of range: 13
+	at java.lang.String.substring(Unknown Source)
+	at org.apache.jsp.WEB_002dINF.views.user.mypage_jsp._jspService(mypage_jsp.java:280)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+
+[2m2020-06-11 23:41:02.533[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 23:41:02.551[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:41:03.885[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToUserJoinPage - 호출
+[2m2020-06-11 23:41:12.698[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user join - 호출
+[2m2020-06-11 23:41:12.732[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m logout - 호출
+[2m2020-06-11 23:41:12.780[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:41:18.245[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user login - 호출
+[2m2020-06-11 23:41:18.292[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:41:19.593[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m mypage - 호출
+[2m2020-06-11 23:44:13.446[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-344][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:44:14.515[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:44:14.594[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 745 ms
+[2m2020-06-11 23:44:14.914[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:44:14.929[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:44:14.942[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:44:15.074[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:44:15.076[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:44:21.064[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-350][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:44:22.028[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:44:22.133[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 775 ms
+[2m2020-06-11 23:44:22.418[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:44:22.431[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:44:22.441[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:44:22.575[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:44:22.578[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:44:52.955[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:44:52.977[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 16 ms
+[2m2020-06-11 23:44:52.980[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:49:26.127[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-356][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:49:28.703[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:49:28.829[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1227 ms
+[2m2020-06-11 23:49:29.249[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:49:29.261[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:49:29.271[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:49:29.436[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:49:29.438[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:50:34.133[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:50:34.143[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 8 ms
+[2m2020-06-11 23:50:34.147[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:50:40.633[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user findPw - 호출
+[2m2020-06-11 23:52:03.450[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-362][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:52:04.480[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:52:04.576[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 801 ms
+[2m2020-06-11 23:52:04.878[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:52:04.889[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:52:04.899[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:52:05.039[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:52:05.042[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:52:08.493[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:52:08.509[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 12 ms
+[2m2020-06-11 23:52:08.514[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:52:13.317[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m user findPw - 호출
+[2m2020-06-11 23:53:32.893[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-368][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:53:33.984[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:53:34.064[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 800 ms
+[2m2020-06-11 23:53:34.351[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:53:34.361[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:53:34.373[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:53:34.509[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:53:34.512[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:53:44.606[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-374][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:53:45.590[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:53:45.669[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 722 ms
+[2m2020-06-11 23:53:45.770[0;39m [33m WARN[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'houseController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ssafy.happyhouse.controller.HouseController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@526f5b5d]
+[2m2020-06-11 23:53:45.783[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2020-06-11 23:53:45.784[0;39m [31mERROR[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'houseController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.ssafy.happyhouse.controller.HouseController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@526f5b5d]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.ssafy.happyhouse.HappyHouseApplication.main(HappyHouseApplication.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.ssafy.happyhouse.controller.HouseController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@526f5b5d]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Map
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Unknown Source)
+	at java.lang.Class.getDeclaredMethods(Unknown Source)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Map
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:144)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	... 29 common frames omitted
+
+[2m2020-06-11 23:53:50.354[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:53:50.464[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 845 ms
+[2m2020-06-11 23:53:50.891[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:53:50.904[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:53:50.914[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:53:51.037[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:53:51.041[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:54:09.779[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-380][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:54:10.883[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:54:11.003[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 820 ms
+[2m2020-06-11 23:54:11.294[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:54:11.303[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:54:11.314[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:54:11.446[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:54:11.448[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:58:25.217[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:58:25.233[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 12 ms
+[2m2020-06-11 23:58:25.240[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:58:29.541[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m house search - 호출
+[2m2020-06-11 23:58:29.597[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m house searchCount - 호출
+[2m2020-06-11 23:59:08.801[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[     Thread-390][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:59:10.079[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2020-06-11 23:59:10.173[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.web.context.ContextLoader           [0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 897 ms
+[2m2020-06-11 23:59:10.496[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.s.concurrent.ThreadPoolTaskExecutor [0;39m [2m:[0;39m Initializing ExecutorService 'applicationTaskExecutor'
+[2m2020-06-11 23:59:10.506[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.d.a.OptionalLiveReloadServer      [0;39m [2m:[0;39m LiveReload server is running on port 35729
+[2m2020-06-11 23:59:10.516[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.a.w.s.WelcomePageHandlerMapping   [0;39m [2m:[0;39m Adding welcome page template: index
+[2m2020-06-11 23:59:10.644[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path ''
+[2m2020-06-11 23:59:10.647[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[  restartedMain][0;39m [36m.ConditionEvaluationDeltaLoggingListener[0;39m [2m:[0;39m Condition evaluation unchanged
+[2m2020-06-11 23:59:46.537[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2020-06-11 23:59:46.542[0;39m [32m INFO[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 4 ms
+[2m2020-06-11 23:59:46.548[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m moveToIndexPage - 호출
+[2m2020-06-11 23:59:50.491[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m house search - 호출
+[2m2020-06-11 23:59:50.558[0;39m [32mDEBUG[0;39m [35m6572[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.s.happyhouse.controller.QnAController [0;39m [2m:[0;39m house searchCount - 호출

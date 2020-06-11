@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.ssafy.happyhouse.mapper.UserMapper">
+	
+	<select id="login" parameterType="map" resultType="com.ssafy.happyhouse.dto.UserDto">
+		select * from user where uid = #{uid} and upassword = #{upassword}
+	</select>
+	
+	<insert id="join" >
+		insert into user ( uid, uname, uaddress, uphone, upassword ) 
+		values ( #{uid},#{uname},#{uaddress},#{uphone},#{upassword})
+	</insert>
+	
+	<delete id="delete" parameterType="map">
+		delete from user where uid = #{uid} and upassword = #{upassword}
+	</delete>
+	
+	<select id="findPw" parameterType="map" resultType="string">
+		select upassword from user
+		where uid = #{uid} and uname = #{uname}
+	</select>
+
+	<update id="update"	>
+		update user 
+		set uaddress = #{uaddress}, uphone = #{uphone}, uname= #{uname} 
+		where uid = #{uid} and upassword = #{upassword}
+
+	</update>
+	
+	
+</mapper>
+
+
+
+
+
+

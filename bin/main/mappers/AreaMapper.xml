@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.ssafy.happyhouse.mapper.AreaMapper">
+	
+	<select id="selectAllSido" resultType="com.ssafy.happyhouse.dto.AreaDto">
+		SELECT left(sido_code,2) AS citycode, sido_name AS city
+		FROM sidocode
+		ORDER BY sido_code
+	</select>
+	
+	<select id="selectAllGugun" resultType="com.ssafy.happyhouse.dto.AreaDto">
+		SELECT left(gugun_code,5) AS gucode, gugun_name AS gu
+		FROM guguncode
+		WHERE left(gugun_code,2) = #{sidocode}
+		ORDER BY gugun_code
+	</select>
+	
+	<select id="selectAllDong" resultType="com.ssafy.happyhouse.dto.AreaDto">
+		SELECT distinct dong, code AS dongcode
+		FROM dongcode
+		WHERE dongcode = #{guguncode}
+		ORDER BY dong
+	</select>
+	
+	<!--  selectAllInterestArea -->
+	<select id="selectAllInterestArea" resultType="com.ssafy.happyhouse.dto.AreaDto">
+		SELECT DISTINCT d.city AS city, d.code AS dongcode, d.dongcode AS gucode, d.gugun AS gu, d.dong AS dong, d.lat AS lat, d.lng AS lng 
+		FROM dongcode d , interestarea i
+		WHERE i.uid = #{uid} AND i.dongcode = d.code
+		ORDER BY i.aid DESC
+	</select>
+	
+	<insert id="insertInterestArea" parameterType="string">
+		INSERT INTO interestarea (uid, dong, dongcode) values (#{uid} , #{dong}, #{dongcode})
+	</insert>
+	
+	<delete id="deleteInterestArea" parameterType="string">
+		DELETE FROM interestarea where uid = #{uid} AND dongcode = #{dongcode}
+	</delete>
+	
+</mapper>
+
+
+
+
+
+

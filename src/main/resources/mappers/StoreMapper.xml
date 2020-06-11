@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.ssafy.happyhouse.mapper.StoreMapper">
+	
+	<select id="selectStoresTotalCnt" resultType="int">
+		SELECT COUNT(*)
+		FROM storeinfo
+		WHERE dongcode = #{dongcode}
+	</select>
+	
+	<!-- selectStoresByDong -->
+	<select id="selectStoresByDong" resultType="com.ssafy.happyhouse.dto.StoreInfo">
+		SELECT * 
+		FROM storeinfo 
+		WHERE dongcode = #{dongcode}
+		ORDER BY no
+		LIMIT #{limit} OFFSET #{offset} 
+	</select>
+	
+	<!-- selectEveryDetail -->
+	<select id="selectEveryDetail" resultType="com.ssafy.happyhouse.dto.StoreInfo">
+		SELECT * 
+		FROM storeinfo 
+		WHERE no = #{no}
+	</select>
+	
+</mapper>
+
+
+
+
+
+
