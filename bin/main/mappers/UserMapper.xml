@@ -6,6 +6,10 @@
 		select * from user where uid = #{uid} and upassword = #{upassword}
 	</select>
 	
+	<select id="idCheck" resultType="int">
+		select count(*) from user where uid=#{uid};
+	</select>
+	
 	<insert id="join" >
 		insert into user ( uid, uname, uaddress, uphone, upassword ) 
 		values ( #{uid},#{uname},#{uaddress},#{uphone},#{upassword})

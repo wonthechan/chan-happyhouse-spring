@@ -27,8 +27,11 @@
       	<input type="text" class="form-control" placeholder="" name="uid" id="uid">
       	<p>비밀번호</p>
       	<input type="password" class="form-control" placeholder="" name="upassword" id="upassword">
+      	<br>
       	
-      	
+      	<a href="https://kauth.kakao.com/oauth/authorize?client_id=cce8d7059b0dd35e8fbf80db79772e25&redirect_uri=http://localhost:9999/users/login/kakao&response_type=code">
+      	<img src="resource/img/kakao_login_medium_narrow.png"></img>
+      	</a>
         <button type="button" id="login" class="btn">로그인</button>
         <button type="button" id="find" class="btn">비밀번호 찾기</button>
         

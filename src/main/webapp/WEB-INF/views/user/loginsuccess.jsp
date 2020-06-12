@@ -19,12 +19,14 @@
     </li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-      	${userDto.uname} 님
+       ${userDto.uname} 님
       </a>
+      <c:if test="${null ne userDto.upassword }">
       <div class="dropdown-menu">
         <a class="dropdown-item" href="/users/mypage">마이페이지</a>
         <a class="dropdown-item" href="#">회원검색</a>
       </div>
+      </c:if>
     </li>
     
     <li class="nav-item">

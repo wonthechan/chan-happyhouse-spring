@@ -1,20 +1,20 @@
 package com.ssafy.happyhouse.controller;
 
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 import javax.servlet.http.HttpSession;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.ssafy.happyhouse.dto.UserDto;
+import com.ssafy.happyhouse.service.KakaoApiService;
 
 import io.swagger.annotations.ApiOperation;
 
@@ -25,6 +25,7 @@ public class HomeController {
 	private static final Logger logger = LoggerFactory.getLogger(QnAController.class);
 	private static final String SUCCESS = "success";
 	private static final String FAIL = "fail";
+	
 	
 	@ApiOperation(value = "메인 페이지로 이동.", response = String.class)
 	@RequestMapping(value="/")
@@ -80,7 +81,8 @@ public class HomeController {
 		logger.debug("qna - 호출");
 		return "redirect:/resource/qna/index.html";
 	}
-  
+
+	
 }
 
 

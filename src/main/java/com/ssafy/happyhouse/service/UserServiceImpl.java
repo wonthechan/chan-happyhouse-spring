@@ -31,5 +31,7 @@ public class UserServiceImpl implements UserService{
 	public int update(UserDto dto) {
 		return userMapper.update(dto);
 	}
-	
+	public int idCheck(String uid) {
+		return userMapper.idCheck(uid);
+	}
 }

@@ -15,5 +15,5 @@ public interface UserMapper {
 	public String findPw(Map<String, String> map);
 	public int join(UserDto dto);
 	public int update(UserDto dto);
-	
+	public int idCheck(String uid);
 }

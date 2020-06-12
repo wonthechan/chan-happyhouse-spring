@@ -1,7 +1,6 @@
 package com.ssafy.happyhouse.controller;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpSession;
@@ -19,11 +18,12 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ssafy.happyhouse.dto.StoreInfo;
 import com.ssafy.happyhouse.dto.UserDto;
+import com.ssafy.happyhouse.service.KakaoApiService;
 import com.ssafy.happyhouse.service.UserService;
 
 import io.swagger.annotations.ApiOperation;
@@ -41,7 +41,42 @@ public class UserController {
 	@Autowired
 	private UserService  userService;
 
-	@ApiOperation(value = "유저 아이디와 패스워드로 로그인을 시도하고 성공시 세션에 저장한다.", response = String.class)
+	@Autowired
+	private KakaoApiService kakao;
+
+	//@RequestBody로 수정을...해야하는데...어떻게..?
+	@ApiOperation(value = "카카오 계정으로 로그인을 시도하고 성공시 세션에 아이디와 이름을 (userDto로)저장한다.", response = String.class) 
+	@RequestMapping(value="/login/kakao")
+	public ModelAndView login(@RequestParam("code") String code, HttpSession session) {
+		
+		logger.debug("user kakao login - 호출");
+		ModelAndView  mav = new ModelAndView();
+		mav.setViewName("redirect:/");
+
+		String access_Token = kakao.getAccessToken(code);
+		HashMap<String, Object> userInfo = kakao.getUserInfo(access_Token);
+		
+		//클라이언트의 이메일이 존재할 때 세션에 해당 계정과 토큰 등록
+		 if (userInfo.get("email") != null) {
+			 
+			String id = (String)userInfo.get("email");
+			id = id.substring(0,id.indexOf("@"));
+			UserDto userDto = new UserDto();
+			userDto.setUid(id);
+			userDto.setUname((String)userInfo.get("nickname"));
+			
+			if(userService.idCheck(id)==0) {
+				userService.join(userDto);
+			}
+			
+			session.setAttribute("userDto", userDto);
+		    session.setAttribute("access_Token", access_Token);
+		  }
+		 return mav;
+		 
+	}
+	
+	@ApiOperation(value = "유저 아이디와 패스워드로 로그인을 시도하고, 성공시 세션에 userDto로 정보를 저장한다.", response = String.class)
 	@PostMapping(value="/login")
 	public ResponseEntity<String> login(@RequestBody UserDto user, HttpSession session) throws Exception {
 	
