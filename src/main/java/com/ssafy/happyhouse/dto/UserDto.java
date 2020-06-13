@@ -38,6 +38,15 @@ public class UserDto {
 	public void setUpassword(String upassword) {
 		this.upassword = upassword;
 	}
+	public UserDto() {}
+	public UserDto(String uid, String uname, String uaddress, String uphone, String upassword) {
+		super();
+		this.uid = uid;
+		this.uname = uname;
+		this.uaddress = uaddress;
+		this.uphone = uphone;
+		this.upassword = upassword;
+	}
 	@Override
 	public String toString() {
 		return "UserDto [uid=" + uid + ", uname=" + uname + ", uaddress=" + uaddress + ", uphone=" + uphone

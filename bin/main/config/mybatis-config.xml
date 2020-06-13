@@ -8,6 +8,7 @@
 		<mapper resource="mappers/AreaMapper.xml" />
 		<mapper resource="mappers/StoreMapper.xml" />
 		<mapper resource="mappers/QnAMapper.xml" />
+		<mapper resource="mappers/NoticeMapper.xml" />
 	</mappers>
 </configuration>
 
