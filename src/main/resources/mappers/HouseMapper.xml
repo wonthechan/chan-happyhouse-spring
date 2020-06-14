@@ -58,7 +58,22 @@
 			where aptName like concat('%',#{aptName},'%')
 		</if>
 	</select>
-
+		
+	<insert id="interestInsert" >
+		insert into interesthousedeal(uid,no) values (#{uid},#{no})
+	</insert>
+	
+	<delete id="interestDelete">
+		delete from interesthousedeal where uid=#{uid} and no=#{no}
+	</delete>
+	
+	<select id="interestFindAll" resultType="com.ssafy.happyhouse.dto.HouseDeal">
+		select distinct housedeal.*
+		from housedeal, interesthousedeal
+		where housedeal.no = interesthousedeal.no and interesthousedeal.uid=#{uid}
+		ORDER BY interesthousedeal.hid DESC 
+	</select>
+	
 	
 </mapper>
 

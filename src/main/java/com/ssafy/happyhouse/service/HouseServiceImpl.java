@@ -30,7 +30,16 @@ public class HouseServiceImpl implements HouseService{
 	public HouseDeal detail(int no){
 		return houseMapper.detail(no);
 	}
+	public int interestInsert(String uid, int no) {
+		return houseMapper.interestInsert(uid, no);
+	}
 	
+	public int interestDelete(String uid, int no) {
+		return houseMapper.interestDelete(uid,no);
+	}
+	public List<HouseDeal> interestFindAll(String uid){
+		return houseMapper.interestFindAll(uid);
+	}
 	//HouseInfo
 	public String searchAptImg(String aptName) {
 		return houseMapper.searchAptImg(aptName);
