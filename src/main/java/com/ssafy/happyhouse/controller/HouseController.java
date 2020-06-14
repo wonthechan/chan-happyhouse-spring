@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -19,6 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ssafy.happyhouse.dto.HouseDeal;
 import com.ssafy.happyhouse.dto.HouseInfo;
 import com.ssafy.happyhouse.dto.HousePageBean;
+import com.ssafy.happyhouse.dto.StoreInfo;
 import com.ssafy.happyhouse.service.HouseService;
 
 import io.swagger.annotations.ApiOperation;
@@ -31,7 +33,8 @@ public class HouseController {
 	
 	
 	private static final Logger logger = LoggerFactory.getLogger(QnAController.class);
-	
+	private static final String SUCCESS = "success";
+	private static final String FAIL = "fail";
 	@Autowired
 	private HouseService houseService;
 	
@@ -46,7 +49,6 @@ public class HouseController {
 		int pageNo = Integer.parseInt(params.get("pageNo"));
 		String searchField = params.get("searchField");
 		String searchText = params.get("searchText");
-		
 		List<HouseDeal> result = null;
 		boolean[] searchType={true, true, false, false};		
 		HousePageBean bean = new HousePageBean();
@@ -61,14 +63,13 @@ public class HouseController {
 			break;
 		}
 		
-		bean.setPageNo(pageNo*10);
+		bean.setPageNo(pageNo*12);
 		if(order.equals("")) {
 			result = houseService.search(bean);
 		}else {
 			bean.setOrder(order);
 			result = houseService.searchOrderByDeal(bean);	
 		}
-		
 		return new ResponseEntity<List<HouseDeal>>(result, HttpStatus.OK);
 	}
 	
@@ -111,8 +112,7 @@ public class HouseController {
 		
 		String aptname = result.getAptName();
 		String img = houseService.searchAptImg(aptname);
-		result.setImg(img);
-		
+		result.setImg("@/img/apt/".concat(img));
 		return new ResponseEntity<HouseDeal>(result, HttpStatus.OK);
 	
 	}
@@ -143,6 +143,44 @@ public class HouseController {
 		
 		return new ResponseEntity<List<HouseInfo>>(result, HttpStatus.OK);
 }
+	@ApiOperation(value = "관심 아파트의 정보를 받아 등록한다.", response = String.class)
+	@PostMapping(value="/interest/insert")
+	public ResponseEntity<String> insertInterestHouse(@RequestBody Map<String,String> params) throws Exception {
+
+		logger.debug("house interest insertInterestHouse - 호출");
+		String uid = params.get("uid");
+   		int no = Integer.parseInt(params.get("no"));
+   		System.out.println(uid+" "+no);
+		int total = houseService.interestInsert(uid,no);
+		
+		if (total==0) {
+   			return new ResponseEntity<String>(FAIL, HttpStatus.OK);
+   		}
+   		return new ResponseEntity<String>(SUCCESS, HttpStatus.OK);
+	}
+	
+	
+	@ApiOperation(value = "관심 아파트 삭제", response = String.class)
+   	@DeleteMapping(value = "/interest/delete/{uid}/{no}")
+   	public ResponseEntity<String> deleteInterestHouse(@PathVariable String uid,@PathVariable int no) throws Exception{
+		logger.debug("house interest deleteInterestHouse - 호출");
+   		int total = houseService.interestDelete(uid,no);
+   		
+   		if (total==0) {
+   			return new ResponseEntity<String>(FAIL, HttpStatus.OK);
+   		}
+   		return new ResponseEntity<String>(SUCCESS, HttpStatus.OK);
+   	}
+	
+	
+	@ApiOperation(value = "등록된 유저의 관심 아파트 조회", response = List.class)
+   	@GetMapping(value = "/interest/{uid}")
+   	public ResponseEntity<List<HouseDeal>> interestFindAll(@PathVariable String uid) throws Exception {
+		logger.debug("findAllInterestHouse - 호출");
+		List<HouseDeal> result = houseService.interestFindAll(uid);
+		
+		return new ResponseEntity<List<HouseDeal>>(result, HttpStatus.OK);
+   	}
 	
 	
 }

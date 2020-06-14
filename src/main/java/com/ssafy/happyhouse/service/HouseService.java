@@ -14,7 +14,9 @@ public interface HouseService {
 	public List<HouseDeal> search(HousePageBean bean);
 	public List<HouseDeal> searchOrderByDeal(HousePageBean bean);
 	public HouseDeal detail(int no);
-	
+	public int interestInsert(String uid, int no);
+	public int interestDelete(String uid, int no);
+	public List<HouseDeal> interestFindAll(String uid);
 	//HouseInfo
 	public String searchAptImg(String aptName);
 	public List<HouseInfo> searchDistinct(HousePageBean bean);
