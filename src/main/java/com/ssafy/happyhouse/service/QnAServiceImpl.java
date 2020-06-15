@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.ssafy.happyhouse.dto.CommentDto;
 import com.ssafy.happyhouse.dto.QnADto;
 import com.ssafy.happyhouse.mapper.QnAMapper;
 
@@ -39,6 +40,30 @@ public class QnAServiceImpl implements QnAService {
 	@Transactional
 	public boolean deleteQnA(int no) {
 		return mapper.deleteQnA(no) == 1;
+	}
+	
+	/// COMMENT ///
+	
+	@Override
+	public List<CommentDto> retrieveComment(int no) {
+		return mapper.selectComment(no);
+	}
+	
+	@Override
+	public boolean writeComment(CommentDto dto) {
+		return mapper.insertComment(dto) == 1;
+	}
+	
+	@Override
+	@Transactional
+	public boolean updateComment(CommentDto dto) {
+		return mapper.updateComment(dto) == 1;
+	}
+	
+	@Override
+	@Transactional
+	public boolean deleteComment(int cid) {
+		return mapper.deleteComment(cid) == 1;
 	}
 
 }

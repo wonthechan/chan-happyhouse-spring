@@ -30,8 +30,7 @@
 	<!-- 게시글 수정 -->
 	<update id="updateQnA" parameterType="QnADto">
 		update qna_board 
-		   set uid = #{uid}, 
-		   	   title = #{title}, 
+		   set title = #{title}, 
 		   	   content = #{content}
 		 where no = #{no}
 	</update>
@@ -41,6 +40,37 @@
 		delete 
 		  from qna_board 
 		 where no = #{no}
+	</delete>
+	
+	<!-- 코멘트 전체 조회 -->
+	<select id="selectComment" resultType="CommentDto">
+		select cid, bid, uid, content, regdt
+		  from qna_comment
+		 where bid = #{no}
+		 order by cid desc
+	</select>
+	
+	<!-- 코멘트 등록 -->
+	<insert id="insertComment" parameterType="CommentDto">
+		insert into qna_comment(
+			bid, uid, content, regdt
+		) values (
+			#{bid}, #{uid}, #{content}, now()
+		)
+	</insert>
+	
+	<!-- 코멘트 수정 -->
+	<update id="updateComment" parameterType="CommentDto">
+		update qna_comment 
+		   set content = #{content}
+		 where cid = #{cid}
+	</update>
+
+	<!-- 코멘트 삭제 -->
+	<delete id="deleteComment" parameterType="int">
+		delete 
+		  from qna_comment 
+		 where cid = #{cid}
 	</delete>
 
 </mapper>
