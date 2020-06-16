@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="com.ssafy.happyhouse.mapper.BunyangMapper">
+	
+	<select id="getAllBunyang" resultType="com.ssafy.happyhouse.dto.Bunyang">
+		SELECT *
+		FROM bunyang 
+		order by bdate
+		LIMIT #{limit} OFFSET #{offset} 
+	</select>
+	
+	<select id="getBunyang" resultType="com.ssafy.happyhouse.dto.Bunyang">
+		SELECT *
+		FROM bunyang 
+		order by bdate
+	</select>
+	
+	<select id="getAllBunyangCount" resultType="int">
+		SELECT COUNT(*)
+		FROM bunyang 
+	</select>
+	
+	<select id="getRecentlyBunyang" resultType="com.ssafy.happyhouse.dto.Bunyang">
+		SELECT *
+		FROM bunyang 
+		where bdate >= CURRENT_TIMESTAMP-1 limit 5;
+	</select>
+	
+</mapper>
+
+
+
+
+
+

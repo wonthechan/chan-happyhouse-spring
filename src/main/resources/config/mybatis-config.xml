@@ -9,6 +9,7 @@
 		<mapper resource="mappers/StoreMapper.xml" />
 		<mapper resource="mappers/QnAMapper.xml" />
 		<mapper resource="mappers/NoticeMapper.xml" />
+		<mapper resource="mappers/BunyangMapper.xml" />
 	</mappers>
 </configuration>
 

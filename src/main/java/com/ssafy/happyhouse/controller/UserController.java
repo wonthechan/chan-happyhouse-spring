@@ -18,12 +18,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.ssafy.happyhouse.dto.UserDto;
-import com.ssafy.happyhouse.service.KakaoApiService;
 import com.ssafy.happyhouse.service.UserService;
 
 import io.swagger.annotations.ApiOperation;
@@ -41,41 +38,6 @@ public class UserController {
 	@Autowired
 	private UserService  userService;
 
-	@Autowired
-	private KakaoApiService kakao;
-
-	
-	@ApiOperation(value = "카카오 계정으로 로그인을 시도하고 성공시 세션에 아이디와 이름을 (userDto로)저장한다.", response = UserDto.class) 
-	@PostMapping(value="/login/kakao")
-	public ResponseEntity<UserDto> login(@RequestBody Map <String,String> map, HttpSession session)  throws Exception {
-		
-		
-		logger.debug("user kakao login - 호출");
-		String access_token = map.get("access_token");
-		HashMap<String, Object> userInfo = kakao.getUserInfo(access_token);
-		UserDto userDto = new UserDto();
-		
-	
-		//클라이언트의 이메일이 존재할 때 세션에 해당 계정과 토큰 등록
-		if (userInfo.get("email") != null) {
-			 
-			String id = (String)userInfo.get("email");
-			id = id.substring(0,id.indexOf("@"));
-			
-			userDto.setUid(id);
-			userDto.setUname((String)userInfo.get("nickname"));
-			
-			if(userService.idCheck(id)==0) {
-				userService.join(userDto);
-			}
-			
-			session.setAttribute("userDto", userDto);
-		    session.setAttribute("access_Token", access_token);
-		  }
-		
-		 return new ResponseEntity<UserDto>(userDto, HttpStatus.OK);
-		 
-	}
 	
 	@ApiOperation(value = "유저 아이디와 패스워드로 로그인을 시도하고, 성공시 세션에 userDto로 정보를 저장한다.", response = UserDto.class)
 	@PostMapping(value="/login")
@@ -87,11 +49,7 @@ public class UserController {
     loginMap.put("upassword", user.getUpassword());
     UserDto userDto = userService.login(loginMap);
     
-    //if( userDto == null ) {
-    //	return new ResponseEntity<String>(FAIL, HttpStatus.OK);
-    //}
     session.setAttribute("userDto", userDto);
-	//return new ResponseEntity<String>(SUCCESS, HttpStatus.OK);
     System.out.println(userDto);
     return new ResponseEntity<UserDto>(userDto, HttpStatus.OK);
 	}
