@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ssafy.happyhouse.dto.ApartMontlyAvgDto;
 import com.ssafy.happyhouse.dto.HouseDeal;
 import com.ssafy.happyhouse.dto.HouseInfo;
 import com.ssafy.happyhouse.dto.HousePageBean;
@@ -182,5 +183,12 @@ public class HouseController {
 		return new ResponseEntity<List<HouseDeal>>(result, HttpStatus.OK);
    	}
 	
-	
+	@ApiOperation(value = "2019년 서울시 자치구 월별 평균 아파트 거래 금액 조회", response = List.class)
+   	@GetMapping(value = "/apart/montly/avg")
+	public ResponseEntity<List<ApartMontlyAvgDto>> searchApartMonthlyAvg() throws Exception {
+		logger.debug("searchApartMonthlyAvg - 호출");
+		List<ApartMontlyAvgDto> result = houseService.searchApartMonthlyAvg();
+		
+		return new ResponseEntity<List<ApartMontlyAvgDto>>(result, HttpStatus.OK);
+   	}
 }

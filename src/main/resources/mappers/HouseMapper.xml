@@ -74,6 +74,10 @@
 		ORDER BY interesthousedeal.hid DESC 
 	</select>
 	
+	<select id="selectApartMonthlyAvg" resultType="com.ssafy.happyhouse.dto.ApartMontlyAvgDto">
+		select gu_name as guName, deal_month as dealMonth, avg_deal_price as avgDealPrice
+		from seoul_apart_avg_deal
+	</select>
 	
 </mapper>
 
