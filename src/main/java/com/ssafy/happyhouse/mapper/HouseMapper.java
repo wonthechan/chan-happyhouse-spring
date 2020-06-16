@@ -6,6 +6,7 @@ import java.util.Map;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
+import com.ssafy.happyhouse.dto.ApartMontlyAvgDto;
 import com.ssafy.happyhouse.dto.HouseDeal;
 import com.ssafy.happyhouse.dto.HouseInfo;
 import com.ssafy.happyhouse.dto.HousePageBean;
@@ -24,4 +25,5 @@ public interface HouseMapper {
 	//HouseInfo
 	public String searchAptImg(String aptName);
 	public List<HouseInfo> searchDistinct(HousePageBean bean);
+	public List<ApartMontlyAvgDto> selectApartMonthlyAvg();
 }

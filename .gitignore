@@ -30,4 +30,5 @@ out/
 
 ### VS Code ###
 .vscode/
-.log
+*.log
+/log-2020-06-13.log

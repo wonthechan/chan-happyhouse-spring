@@ -1,11 +1,11 @@
 package com.ssafy.happyhouse.service;
 
 import java.util.List;
-import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.ssafy.happyhouse.dto.ApartMontlyAvgDto;
 import com.ssafy.happyhouse.dto.HouseDeal;
 import com.ssafy.happyhouse.dto.HouseInfo;
 import com.ssafy.happyhouse.dto.HousePageBean;
@@ -46,5 +46,8 @@ public class HouseServiceImpl implements HouseService{
 	}
 	public List<HouseInfo> searchDistinct(HousePageBean bean){
 		return houseMapper.searchDistinct(bean);
+	}
+	public List<ApartMontlyAvgDto> searchApartMonthlyAvg(){
+		return houseMapper.selectApartMonthlyAvg();
 	}
 }
