@@ -69,7 +69,7 @@ public class BunyangController {
 		return bunyangService.getAllBunyangCount();
 	}
 	
-	@ApiOperation(value = "최신 분양정보 5개를 가져온다. ", response = List.class)
+	@ApiOperation(value = "최신 분양정보 3개를 가져온다. ", response = List.class)
 	@GetMapping("/recently")
 	public List<Bunyang> getRecentlyBunyang() throws Exception {
 		logger.debug("getRecentlyBunyang - 호출");

@@ -63,6 +63,25 @@
 		insert into interesthousedeal(uid,no) values (#{uid},#{no})
 	</insert>
 	
+	<insert id="visitHouseDeal">
+		insert ignore into recently_visited(uid,no) values (#{uid},#{no})
+	</insert>
+	
+	<delete id="visitHouseDealDelete">
+		delete from recently_visited where uid=#{uid} order by rid desc limit 1
+	</delete>
+	
+	<select id="visitHouseDealCount" resultType="int">
+		select count(*) from recently_visited where uid=#{uid}
+	</select>
+	
+	<select id="visitHouseDealSelect" resultType="com.ssafy.happyhouse.dto.HouseDeal">
+		select b.no, b.dong, b.AptName, b.code, b.dealAmount, b.buildYear, b.dealYear, b.dealMonth, b.dealDay,
+		b.area, b.floor, b.jibun, b.type, b.img 
+		from recently_visited a inner join housedeal b on (a.no = b.no)
+		where a.uid=#{uid}
+	</select>
+	
 	<delete id="interestDelete">
 		delete from interesthousedeal where uid=#{uid} and no=#{no}
 	</delete>
@@ -78,6 +97,7 @@
 		select gu_name as guName, deal_month as dealMonth, avg_deal_price as avgDealPrice
 		from seoul_apart_avg_deal
 	</select>
+	
 	
 </mapper>
 

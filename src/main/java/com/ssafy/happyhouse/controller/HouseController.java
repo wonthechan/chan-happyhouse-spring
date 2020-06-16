@@ -190,4 +190,33 @@ public class HouseController {
 		
 		return new ResponseEntity<List<ApartMontlyAvgDto>>(result, HttpStatus.OK);
    	}
+	
+	
+	@ApiOperation(value = "사용자가 방문한 아파트의 정보를 DB에 저장", response = Integer.class)
+   	@PostMapping(value = "/visited/{uid}/{no}")
+	public ResponseEntity <String> visitHouseDeal(@PathVariable String uid, @PathVariable int no) throws Exception {
+		logger.debug("visitHouseDeal - 호출");
+		
+		// 개수가 3개 이상이면
+		int count = houseService.visitHouseDealCount(uid);
+		if(count==3)// 오래된 기록 삭제
+			houseService.visitHouseDealDelete(uid);
+		// 최신 유저 방문 아파트 정보 저장	
+		int result = houseService.visitHouseDeal(uid,no);
+		if (result==0) {
+   			return new ResponseEntity<String>(FAIL, HttpStatus.OK);
+   		}
+   		return new ResponseEntity<String>(SUCCESS, HttpStatus.OK);
+   	}
+	
+	@ApiOperation(value = "사용자가 방문한 아파트의 정보를 불러온다", response = List.class)
+   	@GetMapping(value = "/visited/{uid}")
+	public ResponseEntity <List<HouseDeal>> getVisitHouseDeal(@PathVariable String uid) throws Exception {
+		logger.debug("getVisitHouseDeal - 호출");
+		List<HouseDeal> result = null;
+		result = houseService.visitHouseDealSelect(uid);
+   		return new ResponseEntity<List<HouseDeal>>(result, HttpStatus.OK);
+   	}
+	
+	
 }

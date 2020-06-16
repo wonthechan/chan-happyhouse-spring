@@ -22,6 +22,11 @@ public interface HouseMapper {
 	public int interestInsert(@Param("uid") String uid, @Param("no") int no);
 	public int interestDelete(@Param("uid") String uid, @Param("no") int no);
 	public List<HouseDeal> interestFindAll(String uid);
+	public int visitHouseDeal(@Param("uid") String uid, @Param("no") int no);
+	public int visitHouseDealDelete(String uid);
+	public int visitHouseDealCount(String uid);
+	public List<HouseDeal> visitHouseDealSelect(String uid);
+	
 	//HouseInfo
 	public String searchAptImg(String aptName);
 	public List<HouseInfo> searchDistinct(HousePageBean bean);

@@ -5,6 +5,7 @@
 	<select id="getAllBunyang" resultType="com.ssafy.happyhouse.dto.Bunyang">
 		SELECT *
 		FROM bunyang 
+		where bdate >= CURRENT_TIMESTAMP-1
 		order by bdate
 		LIMIT #{limit} OFFSET #{offset} 
 	</select>
@@ -17,13 +18,14 @@
 	
 	<select id="getAllBunyangCount" resultType="int">
 		SELECT COUNT(*)
-		FROM bunyang 
+		FROM bunyang
+		where bdate >= CURRENT_TIMESTAMP-1 
 	</select>
 	
 	<select id="getRecentlyBunyang" resultType="com.ssafy.happyhouse.dto.Bunyang">
 		SELECT *
 		FROM bunyang 
-		where bdate >= CURRENT_TIMESTAMP-1 limit 5;
+		where bdate >= CURRENT_TIMESTAMP-1 limit 3;
 	</select>
 	
 </mapper>
