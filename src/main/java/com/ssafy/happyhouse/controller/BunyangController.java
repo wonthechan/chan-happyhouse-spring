@@ -75,8 +75,6 @@ public class BunyangController {
 		logger.debug("getRecentlyBunyang - 호출");
 		return bunyangService.getRecentlyBunyang();
 	}
-	
-	
 }
 
 	
